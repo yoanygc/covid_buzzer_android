@@ -17,6 +17,10 @@
         <entry key="..\:/_Programs/Android_Studio/app/src/main/res/layout/fragment_login.xml" value="0.1" />
         <entry key="..\:/_Programs/Android_Studio/app/src/main/res/layout/fragment_notifications.xml" value="0.134765625" />
         <entry key="..\:/_Programs/Android_Studio/app/src/main/res/menu/bottom_nav_menu.xml" value="0.134765625" />
+        <entry key="..\:/_Programs/Android_Studio/covid_buzzer_android/app/src/main/res/layout/activity_login.xml" value="0.134765625" />
+        <entry key="..\:/_Programs/Android_Studio/covid_buzzer_android/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/_Programs/Android_Studio/covid_buzzer_android/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/_Programs/Android_Studio/covid_buzzer_android/app/src/main/res/layout/fragment_login.xml" value="0.1" />
       </map>
     </option>
   </component>

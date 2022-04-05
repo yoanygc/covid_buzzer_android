@@ -13,4 +13,11 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="title_activity_login">LoginActivity</string>
+
+    <string name="txt_covid_info_slu">Covid Info St. Lucia</string>
+    <string name="txt_population">Population</string>
+    <string name="txt_confirmed">Confirmed</string>
+    <string name="txt_deaths">Deaths</string>
+    <string name="txt_updated_at">Updated at:</string>
+
 </resources>

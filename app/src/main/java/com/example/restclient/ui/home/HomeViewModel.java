@@ -26,8 +26,8 @@ public class HomeViewModel extends ViewModel {
         mText = new MutableLiveData<>();
         footText = new MutableLiveData<>();
 
-        mText.setValue("This is home fragment");
-        footText.setValue("Rest API:");
+//        mText.setValue("This is home fragment");
+//        footText.setValue("Rest API:");
 
 
 
