@@ -20,4 +20,39 @@
     <string name="txt_deaths">Deaths</string>
     <string name="txt_updated_at">Updated at:</string>
 
+    <string-array name="patient_names_txt">
+        <item>Yoany Guerra</item>
+        <item>Lemia Chinea</item>
+        <item>Melissa Guerra</item>
+        <item>Marlon Guerra</item>
+        <item>Yoany Guerra</item>
+        <item>Lemia Chinea</item>
+        <item>Melissa Guerra</item>
+        <item>Marlon Guerra</item>
+    </string-array>
+
+    <string-array name="patient_ages_txt">
+        <item>42</item>
+        <item>42</item>
+        <item>13</item>
+        <item>10</item>
+        <item>42</item>
+        <item>42</item>
+        <item>13</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="patient_genders_txt">
+        <item>MALE</item>
+        <item>FEMALE</item>
+        <item>FEMALE</item>
+        <item>MALE</item>
+        <item>MALE</item>
+        <item>FEMALE</item>
+        <item>FEMALE</item>
+        <item>MALE</item>
+    </string-array>
+
+
+
 </resources>

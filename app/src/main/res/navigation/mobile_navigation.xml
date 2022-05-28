@@ -19,9 +19,9 @@
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.restclient.ui.notifications.NotificationsFragment"
+        android:name="com.example.restclient.ui.patients.PatientsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_patients" />
     <fragment
         android:id="@+id/fragment_login"
         android:name="com.example.restclient.ui.login.LoginFragment"
