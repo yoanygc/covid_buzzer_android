@@ -1,8 +1,5 @@
 package com.example.restclient.ui.dashboard;
 
-import com.example.restclient.RestClientUtils;
-import com.loopj.android.http.JsonHttpResponseHandler;
-
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;

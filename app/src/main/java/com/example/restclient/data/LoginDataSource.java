@@ -1,12 +1,8 @@
 package com.example.restclient.data;
 
-import com.example.restclient.RestClientUtils;
 import com.example.restclient.data.model.LoggedInUser;
-import com.loopj.android.http.JsonHttpResponseHandler;
 
 import java.io.IOException;
-
-import androidx.annotation.NonNull;
 
 /**
  * Class that handles authentication w/ login credentials and retrieves user information.

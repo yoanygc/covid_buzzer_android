@@ -2,7 +2,10 @@
     <string name="app_name">RestClient</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_patients">Patients</string>
+    <string name="title_new_patient">New Patient</string>
+    <string name="title_activity_login">Login</string>
+
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -12,14 +15,54 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="title_activity_login">LoginActivity</string>
 
+    <!-- Strings related to newPatients -->
+    <string name="prompt_fullName">Full Name</string>
+    <string name="prompt_age">Age</string>
+    <string name="prompt_gender">Gender</string>
+    <string name="prompt_companyName">Company Name</string>
+    <string name="prompt_companyEmail">Company Email</string>
+    <string name="prompt_companyPhone">Company Phone#</string>
+
+    <!-- Strings related to Home Information about Covid -->
     <string name="txt_covid_info_slu">Covid Info St. Lucia</string>
     <string name="txt_population">Population</string>
     <string name="txt_confirmed">Confirmed</string>
     <string name="txt_deaths">Deaths</string>
     <string name="txt_updated_at">Updated at:</string>
+    <string name="txt_newconfirmed">New Confirmed</string>
+    <string name="txt_newdeaths">New Deaths</string>
+    <string name="txt_newrecovered">New Recovered</string>
 
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Strings used for Buttons -->
+    <string name="buttonAccept">Accept</string>
+    <string name="buttonCancel">Cancel</string>
+
+    <!-- Strings used for Rest API -->
+    <string name="global_covid_URL">https://corona-api.com/countries/LC</string>
+    <string name="base_api_URL">http://192.168.0.4:8080</string>
+    <string name="hello_api_endpoint">/hello</string>
+    <string name="patients_api_endpoint">/patients</string>
+    <string name="register_patient_api_endpoint">/register_patient</string>
+    <string name="companies_api_endpoint">/companies</string>
+    <string name="patient_status_api_endpoint">/patient_status</string>
+
+
+    <!-- Test Data -->
     <string-array name="patient_names_txt">
         <item>Yoany Guerra</item>
         <item>Lemia Chinea</item>
@@ -30,7 +73,6 @@
         <item>Melissa Guerra</item>
         <item>Marlon Guerra</item>
     </string-array>
-
     <string-array name="patient_ages_txt">
         <item>42</item>
         <item>42</item>
@@ -52,7 +94,16 @@
         <item>FEMALE</item>
         <item>MALE</item>
     </string-array>
-
+    <string-array name="patient_status_txt">
+        <item>Quick_Testing</item>
+        <item>PCR_Testing</item>
+        <item>Home_Quarantine</item>
+        <item>Hospital Quarantine</item>
+        <item>Dismissed from Quarantine</item>
+        <item>Home_Quarantine</item>
+        <item>Quick_Testing</item>
+        <item>PCR_Testing</item>
+    </string-array>
 
 
 </resources>

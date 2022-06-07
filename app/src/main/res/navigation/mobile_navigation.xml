@@ -18,10 +18,11 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_patients"
         android:name="com.example.restclient.ui.patients.PatientsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_patients"
         tools:layout="@layout/fragment_patients" />
+
     <fragment
         android:id="@+id/fragment_login"
         android:name="com.example.restclient.ui.login.LoginFragment"
